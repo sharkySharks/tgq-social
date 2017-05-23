@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TGQ Social</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-css-only/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="app/app.js"></script>
+</head>
+<body ng-app="tgq">
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand bg-faded" href="#">
+                <span class="brand">TGQ Social</span>
+                <span class="message">You Belong</span>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="assets/images/unicorn.png" height="50px" width="50px">
+                    <div class="caret"></div>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+        <div ng-view></div>
+    </div>
+</body>
+</html>

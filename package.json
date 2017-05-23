@@ -1,0 +1,20 @@
+{
+  "name": "tgq-social",
+  "version": "1.0.0",
+  "description": "Application for TGQ Social",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "angular": "1.6.4",
+    "angular-route": "1.6.4",
+    "angular-timer": "^1.3.5",
+    "bootstrap-css-only": "^3.3.7"
+  },
+  "scripts": {
+    "dev": "lite-server -c=bs-config.json"
+  },
+  "repository": {}
+}
